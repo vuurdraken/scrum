@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+input{
+    height: 20px;
+    width: 150px;
+    color:  black;
+    border: 1px solid white;
+    background: #f2f2f2;
+}
+#add{
+  width: 60px;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: black;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer */
+    color: black;
+}
+  
+::placeholder {
+    color: black;
+}
+  
+  th, td {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #000000;
+    color: white;
+  }
